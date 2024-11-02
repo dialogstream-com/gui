@@ -1,8 +1,10 @@
+![dialogstream](dialogstream-animation.svg)
+
 # DialogStream GUI
 
 A React-based graphical user interface for DialogStream, featuring flow diagram editing and preview capabilities.
 
-![img.png](img.png)
+![img_1.png](img_1.png)![img.png](img.png)
 
 ## Project Structure
 

@@ -6,7 +6,6 @@ import './App.css';
 // import FlowEdit from "./components/FlowEdit";
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
-// import FlowEdit from "./components/FlowEditor";
 import FlowEdit from "./components/FlowEditor2";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

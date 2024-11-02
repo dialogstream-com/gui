@@ -202,15 +202,21 @@ const FlowEditor = () => {
     );
 
     return (
-        <div className="p-8 max-w-6xl mx-auto">
+        <div className="p-8 max-w-6xl mx-auto relative mb-6">
 
             {/* Header Section */}
             <div className="mb-8">
-                <div className="flex justify-between items-center mb-6">
-                    <h1 className="text-3xl font-bold text-gray-900">Flow Editor</h1>
+                <div className="flex justify-between items-center gap-2">
+                    <img
+                        src="/dialogstream-animation.svg"
+                        alt="DialogStream Logo"
+                        className="h-16"
+                    />
+                    <h1 className="text-3xl font-bold text-gray-400 "><a href="http://editor.dialogstream.com">editor.dialogstream.com</a></h1>
 
                     {/* Import/Export Buttons */}
                     <div className="flex gap-2">
+
                         <button
                             onClick={() => fileInputRef.current?.click()}
                             className="flex items-center gap-2 px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-lg transition-colors"

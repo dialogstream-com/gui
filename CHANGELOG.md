@@ -8,30 +8,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.0] - 2024-01-09
 
 ### Added
-- Flow Editor 2.0 with enhanced capabilities
-- New validation system for flow steps
-- Improved error handling and validation feedback
-- Search/filter functionality for flows and steps
-- Visual flow preview with diagram representation
+- Enhanced Flow Editor features:
+  - Drag-and-drop reordering with grip handles
+  - In-place step editing with save/cancel functionality
+  - JSON import/export with error handling
+  - Undo/redo functionality with history tracking
+  - Search/filter for flows and steps
+  - Visual flow diagram preview improvements
 
 ### Enhanced
-- Better UI/UX with improved spacing and layout
-- More intuitive interaction patterns
-- Real-time validation feedback
-- Streamlined flow editing experience
+- Step validation system:
+  - Support for all step types (RTSP, FILE, SCHEDULE)
+  - Real-time validation with clear error messages
+  - Visual feedback for validation errors
+  - Type-specific validation rules
 
-## [1.0.0] - 2024-01-09
+- UI/UX Improvements:
+  - Better spacing and layout optimization
+  - More intuitive icons and interactions
+  - Visual feedback for all operations
+  - Scrollable modal for long flow lists
+
+- Search Capabilities:
+  - Real-time filtering as you type
+  - Search across flow names and step content
+  - Instant results updates
+
+## [1.0.0] - 2024-11-02
 
 ### Added
-- Initial release of Flow Editor
-- Basic flow editing capabilities
-- Step validation for common types
-- Import/export functionality
-- Drag-and-drop reordering
-- Modal-based editing interface
-
-### Technical
-- React-based architecture
-- Vite build system
-- Tailwind CSS styling
-- Component-based structure
+- Initial release of the DialogStream GUI application
+- Flow diagram preview functionality
+- Flow editing capabilities with modal interface
+- Flow editor components with validation
+- UI component library including:
+  - Custom Button component
+  - Custom Input component
+- Tailwind CSS integration for styling
+- Vite-based build configuration
+- React application foundation with:
+  - Component-based architecture
+  - CSS modules support
+  - Global styles configuration
