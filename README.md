@@ -2,6 +2,8 @@
 
 A React-based graphical user interface for DialogStream, featuring flow diagram editing and preview capabilities.
 
+![img.png](img.png)
+
 ## Project Structure
 
 The project is organized as follows:
